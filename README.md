@@ -18,14 +18,21 @@ Using the np.linalg.matrix_rank(), we can find the rank of the given matrix.
 Display the rank of the matrix as the output.
 
 ## Program:
+
+ DEVELOPED BY: YOGESH.S
+ 
+ REGISTER NUMBER: 212224230311
+ 
 ```
 import numpy as np
-A = [[1,2,3],[3,6,9]]
-sln = np.linalg.matrix_rank(A)
-print(sln)
+a=np.array( [[3,2,5],[1,1,2],[3,3,6]])
+s=np.linalg.matrix_rank(a)
+print(s)
 ```
 ## Output:
-![image](https://github.com/user-attachments/assets/ecc9ac81-b18b-4ed9-b3b1-c0bba8574747)
+
+
+![Screenshot 2025-05-18 113209](https://github.com/user-attachments/assets/6adbc6f3-2470-4415-9483-9a6cbe827da9)
 
 ## Result:
 Thus the rank for the given matrix is successfully solved by  using a python program.
